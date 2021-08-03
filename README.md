@@ -7,6 +7,12 @@ This updated close uses the latest Apollo Client and React
 versions (all packages, included in the original project, have been updated to
 their latest possible versions).
 
+## Getting Started
+
+* `npm install`
+
+That's it!  The rest of the setup follows the video course.
+
 ## Changelog
 
 The main changes (where the original repo & this differ) are as follows:
