@@ -18,14 +18,14 @@ const RootQuery = new GraphQLObjectType({
     song: {
       type: SongType,
       args: { id: { type: new GraphQLNonNull(GraphQLID) } },
-      resolve(parentValue, { id }) {
+      resolve(_, { id }) {
         return Song.findById(id);
       }
     },
     lyric: {
       type: LyricType,
       args: { id: { type: new GraphQLNonNull(GraphQLID) } },
-      resolve(parnetValue, { id }) {
+      resolve(_, { id }) {
         return Lyric.findById(id);
       }
     }
