@@ -24,3 +24,8 @@ The main changes (where the original repo & this differ) are as follows:
 * Fix deprecated APIs
   - `express-graphql`'s exports
   - `body-parser` json parsing is deprecated (functionality moved to `express`)
+
+## Docker
+
+:warning: Please do not use the `Dockerfile` to install & run the
+project--this is a WIP and requires some architectural changes
