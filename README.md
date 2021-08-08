@@ -7,6 +7,9 @@ This updated close uses the latest Apollo Client and React
 versions (all packages, included in the original project, have been updated to
 their latest possible versions).
 
+**note**: the project was developed using the latest LTS version of node
+(`fermium`)
+
 ## Getting Started
 
 * `npm install`
